@@ -3,7 +3,7 @@
 
 
 :root {
-  /* 🎯 Background Colors */
+
   --bg-primary-color: #2C3E50;      /* For navbars, headers */
   --bg-secondary-color: #ECF0F1;    /* For light sections/backgrounds */
   --bg-card-color: #FFFFFF;         /* For cards, inputs, containers */
@@ -11,26 +11,24 @@
   --bg-success-color: #27AE60;      /* Success backgrounds (e.g., badges) */
   --bg-danger-color: #C0392B;       /* Alert backgrounds */
 
-  /* 🖋️ Text Colors */
   --text-heading-color: #2D3436;    /* Main heading text */
   --text-body-color: #2D3436;       /* General paragraph text */
   --text-muted-color: #7F8C8D;      /* Subtext, labels */
   --text-btn-color: #FFFFFF;        /* Text on buttons (usually white) */
 
-  /* 🧱 Border Colors */
+
   --border-muted-color: #DDE3E8;    /* Soft gray border (optional) */
 
-  /* 🟠 Accent Color */
   --accent-color: #E67E22;          /* Can be reused for highlights/icons */
-    /* 🔹 Paragraph Sizes */
+ 
   --sm--para-size: 0.875rem;   /* 14px */
   --lg--para-size: 1rem;       /* 16px */
   
-  /* 🔹 Small Text / Caption */
+  /*  Small Text / Caption */
   --sm--caption-size: 0.75rem;  /* 12px */
   --lg--caption-size: 0.875rem; /* 14px */
 
-  /* 🔹 Heading Sizes */
+  /*  Heading Sizes */
   --sm--h1-size: 1.75rem;      /* 28px */
   --lg--h1-size: 2.25rem;      /* 36px */
 
@@ -40,12 +38,12 @@
   --sm--h3-size: 1.25rem;      /* 20px */
   --lg--h3-size: 1.5rem;       /* 24px */
 
-  /* 🔹 Buttons / CTAs */
+  /*  / CTAs */
   --sm--btn-size: 0.875rem;    /* 14px */
   --lg--btn-size: 1rem;        /* 16px */
 
   --responsive-btn: clamp(0.875rem, 1rem, 1rem);
-  /* 🏋️ Font Weights */
+  
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-semibold: 600;

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Btn1 from './button/Btn1'
 import notsignin from "./../assets/icons/notsignin.png"
-import { FaHamburger, FaList } from 'react-icons/fa'
+import { FaHamburger, FaList, FaLocationArrow } from 'react-icons/fa'
 const Navbar = () => {
 
     const [isSliderMenu , setSliderMenu] =  useState(false)
@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
 
     <nav className='w-[100%] transition-all duration-400  font-[var(--fw-semibold)]'> 
-        <section id='navbar-inner-section' className=' '>
+        <section id='navbar-inner-section'>
              <div  className='  transition-all  max-w-[1380px] w-[100%] p-4 md:p-4  mx-auto flex items-center   justify-between text-[var(--text-btn-color)] '>
               <div className="logo-container">
                       <h1 className=' md:text-2xl'>Rent-Home</h1>
@@ -48,6 +48,11 @@ const Navbar = () => {
                   <Link   id='about' className='p-2'>About Us</Link>
                   <Link id='location' className='p-2'>Locations</Link>
                   <Link id='blog' className='p-2'>Blogs</Link>
+              </div>
+
+              <div className=''>
+                      <input type="text" placeholder='Bangalore' className='placeholder-white rounded-full w-full md:w-1/2 bg-transparent  h-10 px-5 focus:outline-2 outline-[var(--accent-color)] ' />
+                      <Btn1><FaLocationArrow/></Btn1>
               </div>
 
               <div className="call-to-action-btns  flex gap-x-4 w-fit">
