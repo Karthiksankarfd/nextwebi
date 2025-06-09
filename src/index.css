@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+
+
+:root {
+  /* 🎯 Background Colors */
+  --bg-primary-color: #2C3E50;      /* For navbars, headers */
+  --bg-secondary-color: #ECF0F1;    /* For light sections/backgrounds */
+  --bg-card-color: #FFFFFF;         /* For cards, inputs, containers */
+  --bg-btn-color: #E67E22;          /* Primary button background */
+  --bg-success-color: #27AE60;      /* Success backgrounds (e.g., badges) */
+  --bg-danger-color: #C0392B;       /* Alert backgrounds */
+
+  /* 🖋️ Text Colors */
+  --text-heading-color: #2D3436;    /* Main heading text */
+  --text-body-color: #2D3436;       /* General paragraph text */
+  --text-muted-color: #7F8C8D;      /* Subtext, labels */
+  --text-btn-color: #FFFFFF;        /* Text on buttons (usually white) */
+
+  /* 🧱 Border Colors */
+  --border-muted-color: #DDE3E8;    /* Soft gray border (optional) */
+
+  /* 🟠 Accent Color */
+  --accent-color: #E67E22;          /* Can be reused for highlights/icons */
+    /* 🔹 Paragraph Sizes */
+  --sm--para-size: 0.875rem;   /* 14px */
+  --lg--para-size: 1rem;       /* 16px */
+  
+  /* 🔹 Small Text / Caption */
+  --sm--caption-size: 0.75rem;  /* 12px */
+  --lg--caption-size: 0.875rem; /* 14px */
+
+  /* 🔹 Heading Sizes */
+  --sm--h1-size: 1.75rem;      /* 28px */
+  --lg--h1-size: 2.25rem;      /* 36px */
+
+  --sm--h2-size: 1.5rem;       /* 24px */
+  --lg--h2-size: 2rem;         /* 32px */
+
+  --sm--h3-size: 1.25rem;      /* 20px */
+  --lg--h3-size: 1.5rem;       /* 24px */
+
+  /* 🔹 Buttons / CTAs */
+  --sm--btn-size: 0.875rem;    /* 14px */
+  --lg--btn-size: 1rem;        /* 16px */
+
+  --responsive-btn: clamp(0.875rem, 1rem, 1rem);
+  /* 🏋️ Font Weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* corner radius  */
+  --button-radius:10px;
+   --cards-radius:20px;
+  --responsive-caption: clamp(0.75rem, 2vw, 0.875rem);
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, nav , button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.h3-text-size {
+  font-size: var(--lg--h3-size);
+  font-weight: var(--fw-semibold)
+}
+
+
+body{
+  background-color:var(--color-secondary);
+}
+
+.scrolled{
+  /* background-color:var( --bg-primary-color) ; */
+  @apply backdrop-blur bg-black/80 transition-all ;
+}
+
+
+@keyframes infinitescroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.infinitescroll-animation {
+  animation: infinitescroll 50s linear infinite;
+}
+
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.scroll-content {
+  white-space: nowrap;
+  animation: scroll-left 50s linear infinite;
+}
+
+.scroll-content span {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 1.25rem;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.mask-gradient-bottom {
+  -webkit-mask-image: linear-gradient(to right,transparent 0%,black 20%,black 80%, transparent 100%);
+  mask-image: linear-gradient( to right,transparent 0%,black 20%,black 80%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+
+/* .location::before{
+  content:'📍';
+} */
+
+/* .new-flats::before{
+  content:'🏠';
+} */
+
+
+
+
+
+
