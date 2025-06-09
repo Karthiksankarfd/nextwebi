@@ -11,16 +11,15 @@ import InfinityScrollBox from '../components/animatedComponents/InfinityScrollBo
 
 const LandingPage = () => {
   return (
-    <mian>
+    <main>
        <HeroSection/>
         <InfinityScrollBox/>
-       <NewRentals/>
-       {/* <Banner1/> */}
-       <AboutUs/>
-       <Locations/>
-       <BlogsSection/>
-       <Mainfooter/>
-    </mian>
+        <NewRentals/>
+        <AboutUs/>
+        <Locations/>
+        <BlogsSection/>
+        <Mainfooter/>
+    </main>
   )
 }
 

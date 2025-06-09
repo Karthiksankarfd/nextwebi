@@ -7,7 +7,7 @@ const LocationsCard = ({location , content, image}) => {
               <img
                 src={image}
                 className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                alt=""
+                alt={location}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70 group-hover:opacity-90 transition-all duration-300"></div>
               <p className="absolute z-10 text-white bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-all duration-300">

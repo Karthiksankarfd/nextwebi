@@ -15,8 +15,8 @@ const AboutUs = () => {
         <Line/>
     </div>
     <div className="flex flex-wrap  gap-5 justify-evenly  max-w-[1380px] mx-auto bg-linear-65 from-orange-500 to-pink-500 p-5 rounded-xl">
-            {platformStats.map((item)=>{
-              return (<USPCard {...item}/>
+            {platformStats.map((item, index)=>{
+              return (<USPCard {...item} key={index * 0.4}/>
               )
             }) }
     </div>

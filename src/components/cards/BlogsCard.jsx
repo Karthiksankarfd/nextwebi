@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import rightarrow from "../../assets/icons/rightarrow.png"
+
 const BlogsCard = ({ image, title, content, author, postedOn }) => {
   const navigate = useNavigate();
   const handleNavigate = (param) => {
@@ -24,11 +26,13 @@ const BlogsCard = ({ image, title, content, author, postedOn }) => {
           alt={`Thumbnail for blog post titled ${title}`}
         />
       </div>
-      <div className="rental-card-container-text-area h-fit p-4 flex flex-col gap-y-1 md:gap-y-2">
+      <div className="rental-card-container-text-area h-fit p-4 flex flex-col gap-y-1 md:gap-y-2 ">
         <div className="property-info font-[var(--fw-medium)]">{title}</div>
         <div className="property-location flex justify-between text-[12px] md:text-[16px]">
           <span>{postedOn}</span>
-          <span className="">&rarr;</span>
+          <div className=" bg-[var(--accent-color)] text-white h-10 w-10 text-center rounded-full flex items-center justify-center">
+                 <img src={rightarrow} alt="viewblog" className="h-5" />
+          </div>
         </div>
       </div>
     </div>

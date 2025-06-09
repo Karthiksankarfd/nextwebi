@@ -14,7 +14,6 @@ const InfinityScrollBox = () => {
                         <img src={item.icon} alt={item.achivement} className='h-5 md:h-7'/>
                         <span>{item.achivement}</span>
                     </div>
-            
                 </li>
             ))}
         </ul>    

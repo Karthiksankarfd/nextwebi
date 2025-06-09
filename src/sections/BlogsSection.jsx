@@ -42,8 +42,11 @@ const BlogsSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-[1380px] mx-auto">
         {filteredBlogs.map((blog, i) => (
           <BlogsCard key={i} {...blog} />
-        ))}
+        ))} 
       </div>
+      <div className="flex justify-center mt-6">
+        <Btn1>View Blogs</Btn1>
+     </div>
       
     </section>
   )

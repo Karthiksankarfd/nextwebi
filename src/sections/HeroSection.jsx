@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Btn1 from '../components/button/Btn1'
 
 const HeroSection = () => {

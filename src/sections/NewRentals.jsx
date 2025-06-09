@@ -4,7 +4,7 @@ import RentalShortInfoCard from '../components/cards/RentalShortInfoCard'
 import Btn1 from '../components/button/Btn1'
 const NewRentals = () => {
   return (
- <section className=" px-4 md:px-5 mt-5">
+ <section className=" px-4 md:px-5 mt-5" >
     <div className="newrental-text-area mx-auto max-w-[1380px] mb-5">
         <h1 className='font-[var(--fw-bold)] text-xl  md:text-4xl new-flats'>
             New Flats Available for Rent in Bangalore

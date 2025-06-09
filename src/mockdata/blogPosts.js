@@ -1,7 +1,7 @@
 export const blogPosts = [
   {
     image: "https://expatria.in/blog/wp-content/uploads/2021/11/Copy-of-Add-a-subheading.png",
-    title: "Fully Furnished vs. Semi-Furnished: Which is Right for You?",
+    title: "Fully Furnished vs Semi-Furnishe homes rents and whta to expect..",
     content: "Choosing between fully and semi-furnished homes? Understand the pros, cons, and cost factors before making your decision.",
     author: "Karthik Rao",
     postedOn: "May 27-05-2025",

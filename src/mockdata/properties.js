@@ -1,10 +1,10 @@
 export const rentalListings = [
   {
-    id: 1,
+    id: 112,
     rentAmount: 18000,
     imageUrls: [
       "https://www.sowerent.com/property/fully-furnished-2-bhk-apartment-for-rent-in-manjunath-layout-marathahalli-32-000-month-thrive-habitat-1497",
-      "https://5.imimg.com/data5/SELLER/Default/2022/3/UE/ZK/KN/60723916/new-3bhk-duplex-25--500x500.png"
+      "https://media.zameen.com/thumbnails/265667570-240x180.jpeg"
     ],
     availableFrom: "2025-06-15",
     location: "Marathahalli, Bangalore",
@@ -15,7 +15,7 @@ export const rentalListings = [
     furnishing: "Fully Furnished"
   },
   {
-    id: 2,
+    id: 2132,
     rentAmount: 25000,
     imageUrls: [
       "https://images.unsplash.com/photo-1600585154087-41cabd2bcd68",
@@ -30,7 +30,7 @@ export const rentalListings = [
     furnishing: "Semi Furnished"
   },
   {
-    id: 3,
+    id: 123,
     rentAmount: 20000,
     imageUrls: [
       "https://images.unsplash.com/photo-1599423300746-b62533397364",
@@ -45,7 +45,7 @@ export const rentalListings = [
     furnishing: "Semi Furnished"
   },
   {
-    id: 4,
+    id: 2344,
     rentAmount: 27000,
     imageUrls: [
       "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
@@ -60,7 +60,7 @@ export const rentalListings = [
     furnishing: "Fully Furnished"
   },
   {
-    id: 5,
+    id: 875,
     rentAmount: 19000,
     imageUrls: [
       "https://images.unsplash.com/photo-1615873968403-89e068629265",
@@ -75,7 +75,7 @@ export const rentalListings = [
     furnishing: "Fully Furnished"
   }
   ,  {
-    id: 1,
+    id: 1098,
     rentAmount: 18000,
     imageUrls: [
       "https://www.sowerent.com/property/fully-furnished-2-bhk-apartment-for-rent-in-manjunath-layout-marathahalli-32-000-month-thrive-habitat-1497",
@@ -90,7 +90,7 @@ export const rentalListings = [
     furnishing: "Fully Furnished"
   },
   {
-    id: 2,
+    id: 287,
     rentAmount: 25000,
     imageUrls: [
       "https://images.unsplash.com/photo-1600585154087-41cabd2bcd68",
@@ -105,7 +105,7 @@ export const rentalListings = [
     furnishing: "Semi Furnished"
   },
   {
-    id: 3,
+    id: 763,
     rentAmount: 20000,
     imageUrls: [
       "https://images.unsplash.com/photo-1599423300746-b62533397364",

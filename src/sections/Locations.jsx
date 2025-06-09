@@ -15,9 +15,9 @@ const Locations = () => {
         </span>
     </div>
   <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-5 max-w-[1380px] mx-auto ">
-        {locationPromos.map((location)=>{
+        {locationPromos.map((location, index)=>{
             return(
-                <LocationsCard {...location}/>
+                <LocationsCard {...location} key={index * 0.5}/>
             )
         })}
         
